@@ -84,7 +84,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/Services"
+                href="/services"
                 className={getLinkClassName('/Services')}
                 aria-current={isActive('/Services') ? 'page' : undefined}
                 onClick={closeMenu}
@@ -94,7 +94,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/Consultancy"
+                href="/consultancy"
                 className={getLinkClassName('/Consultancy')}
                 aria-current={isActive('/Consultancy') ? 'page' : undefined}
                 onClick={closeMenu}
@@ -104,7 +104,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/About"
+                href="/about"
                 className={getLinkClassName('/About')}
                 aria-current={isActive('/About') ? 'page' : undefined}
                 onClick={closeMenu}
