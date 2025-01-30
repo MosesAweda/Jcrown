@@ -85,8 +85,8 @@ export default function Navbar() {
             <li>
               <Link
                 href="/services"
-                className={getLinkClassName('/Services')}
-                aria-current={isActive('/Services') ? 'page' : undefined}
+                className={getLinkClassName('/services')}
+                aria-current={isActive('/services') ? 'page' : undefined}
                 onClick={closeMenu}
               >
                 Services
@@ -95,8 +95,8 @@ export default function Navbar() {
             <li>
               <Link
                 href="/consultancy"
-                className={getLinkClassName('/Consultancy')}
-                aria-current={isActive('/Consultancy') ? 'page' : undefined}
+                className={getLinkClassName('/consultancy')}
+                aria-current={isActive('/consultancy') ? 'page' : undefined}
                 onClick={closeMenu}
               >
                 Consultancy
@@ -105,8 +105,8 @@ export default function Navbar() {
             <li>
               <Link
                 href="/about"
-                className={getLinkClassName('/About')}
-                aria-current={isActive('/About') ? 'page' : undefined}
+                className={getLinkClassName('/about')}
+                aria-current={isActive('/about') ? 'page' : undefined}
                 onClick={closeMenu}
               >
                 About

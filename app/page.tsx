@@ -14,8 +14,8 @@ export default function Home() {
             </div>
             </div>
            
-          <div> 
-            <img src="/frame10.png"   />
+          <div className="bg-transparent p-4 "> 
+            <img src="/frame10.png"   className="rounded-3xl" />
           </div>
      </div>
 
