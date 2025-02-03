@@ -1,5 +1,7 @@
 
+import linkedInSvg from 'public/svg/linkedin.svg'
 export default function Services() {
+
 
   
   return (
@@ -76,7 +78,7 @@ export default function Services() {
 <p className="mt-4"> +2348087493079, +2348089222764</p>
 <p className="mt-4">  jcrownsports@gmail.com</p>
 <div className="flex mt-5 items-center gap-2">
-     <img src="/linkedin.svg" alt="linkedIn" className="w-6 h-6" />
+     <img src={linkedInSvg} alt="linkedIn" className="w-6 h-6" />
  
     </div>
         </div>

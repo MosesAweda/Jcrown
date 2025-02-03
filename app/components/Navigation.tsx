@@ -1,5 +1,6 @@
 'use client';
-
+import Image from 'next/image';
+ 
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -36,7 +37,8 @@ export default function Navbar() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
           onClick={closeMenu}
         >
-          <img src="/logo.svg" className="h-20" alt="Logo" />
+          <Image  className='rounded-3xl relative h-20  z-10 '  alt="Logo" src={"/svg/logo.svg"} width={100} height={100}  quality={100}/>
+          {/* <img src="/logo.svg" className="h-20" alt="Logo" /> */}
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             
           </span>

@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Champ';
+  src: url('/fonts/Champ.woff2') format('woff2'),
+       url('/fonts/Champ.woff') format('woff');
+}
+
+ 
 :root {
   --background: #ffffff;
   --foreground: #171717;
