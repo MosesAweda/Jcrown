@@ -1,18 +1,52 @@
 'use client';
 import Image from 'next/image';
+import Slider2   from 'react-infinite-logo-slider'
+import peopleGroup from '../public/svg/peopleGroup.svg';
+import heart from '../public/svg/heart.svg';
+import rocket from '../public/svg/rocket.svg';
+import shield from '../public/svg/shield.svg';
 import Frame10 from '../public/Frame10.png';
 import Frame11 from '../public/Frame11.png';
 import frame15 from '../public/frame15.png';
+import caf from '../public/caf.png';
+import fifa from '../public/fifa.png';
+import ogun from '../public/ogun.png';
+import epl from '../public/epl.png';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 export default function Home() {
+  const settings1 = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000
+  };
+
+
+  const settings2 = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000
+  };
   return (
-    <main className="container mx-auto px-4">
-      <section className="mt-8">
+    <>
+       <main className="overflow-x-hidden"> 
+      <section className="mt-8 container mx-auto" >
         <div className="sm:grid grid-cols-2 gap-4 mx-4 mt-8 ">
     <div className="text-2xl font-medium p-4 flex items-center justify-center relative">
       {/* Diamond shape using Tailwind classes */}
       <div className="absolute -z-10 h-3/4 w-3/4 bg-yellow-200  p-5 rounded-[20%]   left-[-280px] opacity-20 transform rotate-45"></div>
       <div> 
-      <div className="text-7xl font-extrabold font-['Champ']">
+      <div className="text-4xl  sm:text-7xl font-extrabold font-['Champ']">
   Revive the <span className="text-green-800">athlete</span> in you.
 </div>
       <p className='mt-5 text-md'>   We believe in the transformative power of sport
@@ -31,7 +65,7 @@ export default function Home() {
 
      <div className=" mt-5">
         <div className="p-6">
-            <div className="text-4xl  text-7xl font-extrabold font-['Champ'] my-2 text-center ">
+            <div className="text-4xl sm:text-7xl font-extrabold font-['Champ'] my-2 text-center ">
                 Our Philosophy
             </div>
            <p className='text-center my-3 text-md'> At Jcrown Sport, we believe that success in sports management is built on a foundation of integrity,
@@ -42,13 +76,13 @@ performance excellence, and long-term success.
             </div>
      </div>
 
-     <div className=" mt-5  sm:grid grid-cols-5  p-3 sm:p-10 ">
+     <div className=" mt-5  lg:grid grid-cols-5  p-3 sm:p-10 ">
       
 
           <div className="col-span-3 font-medium p-4  ">
             <div className=" p-8 bg-green-800 shadow-lg shadow-gray-900  h-full flex items-center justify-center text-white rounded-2xl">
               <div>
-            <div className="text-4xl font-bold">
+            <div className="text-3xl  my-3   sm:text-4xl font-bold">
                 Athlethe-Centric Approach
             </div>
             <div className="">
@@ -72,7 +106,111 @@ performance excellence, and long-term success.
       </div>
 </section>
 
- <section className="mt-8"> 
+<section className="mt-8 w-full bg-black p-10 text-white"> 
+<Slider {...settings1} className="h-full">
+      {/* Wrap all slides in a container with fixed height */}
+      <div className=" h-[800px] sm:h-[400px] bg-black text-white">
+        <div className="container mx-auto px-4 h-full">
+          <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
+            <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+                Ethical Leadership and Integrity
+              </h1>
+              <p className="leading-relaxed px-12 pb-8">
+                Our guiding principles are rooted in honesty, transparency, and
+                accountability. At Jcrown, we believe that ethical leadership is
+                essential in building trust and fostering lasting relationships with
+                athletes, stakeholders, and partners. We hold ourselves to the highest
+                standards of integrity in all our dealings.
+              </p>
+            </div>
+            <div className="w-full md:w-2/6 flex justify-center items-center py-8">
+              <Image
+                src={shield}
+                alt="Shield representing integrity"
+                className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[800px]   sm:h-[400px] bg-black text-white">
+        <div className="container mx-auto px-4 h-full">
+          <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
+            <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+                Innovation and Adaptability
+              </h1>
+              <p className="leading-relaxed px-12 pb-8">
+                The sports industry is dynamic and ever-evolving.
+                We pride ourselves on our ability to adapt to changing trends, leverage new technologies, and innovate in 
+                the ways we manage talent and operations. Whether it's marketing strategies, training methods, 
+                or athlete branding, we remain at the forefront of the industry to create cutting-edge solutions.
+              </p>
+            </div>
+            <div className="w-full md:w-2/6 flex justify-center items-center py-8">
+              <Image
+                src={rocket}
+                alt="Rocket representing innovation"
+                className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[800px] sm:h-[400px] bg-black text-white">
+        <div className="container mx-auto px-4 h-full">
+          <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
+            <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+                Building Long-Term Relationships
+              </h1>
+              <p className="leading-relaxed px-12 pb-8">
+                We focus on nurturing meaningful, long-lasting relationships with our clients, sponsors, and partners. 
+                Our success is measured by the success we bring to those we serve, 
+                and we are dedicated to creating mutually beneficial partnerships that stand the test of time.
+              </p>
+            </div>
+            <div className="w-full md:w-2/6 flex justify-center items-center py-8">
+              <Image
+                src={heart}
+                alt="Heart representing relationships"
+                className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[800px] sm:h-[400px] bg-black text-white">
+        <div className="container mx-auto px-4 h-full">
+          <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
+            <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+                Excellence Through Collaboration
+              </h1>
+              <p className="leading-relaxed px-12 pb-8">
+                Jcrown Sport Management thrives on collaboration both internally and externally. By bringing together experts, 
+                athletes, coaches, and industry leaders, we create a team-driven approach that 
+                fosters excellence and achieves outstanding results for every individual and organization we work with.
+              </p>
+            </div>
+            <div className="w-full md:w-2/6 flex justify-center items-center py-8">
+              <Image
+                src={peopleGroup}
+                alt="People group representing collaboration"
+                className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      </Slider>
+  </section>
+
+  <section className="mt-8 w-full px-4"> 
 
   <div className="bg-green-800 text-white p-6  rounded-t-[400px]">
 
@@ -108,12 +246,12 @@ performance excellence, and long-term success.</p>
 
   </div>
  </div>
- <div className='bg-green-50  rounded-b-[400px]'>
+ <div className='bg-green-50  text-black  rounded-b-[400px]'>
   <div className='sm:p-32 p-16'>
   <h1 className='text-3xl font-bold text-center p-3'>
 Our Vision
   </h1>
-  <div className='text-md  text-center sm:px-16'> 
+  <div className='text-md   text-center sm:px-16'> 
   <p className=''> 
 Our vision at Jcrown Sport Intl Ltd is to be a leading example in athlete management and development.
  We envision a world where  our client have access to a world-class management service and  are connected, inspired,
@@ -130,8 +268,58 @@ success in the ever-evolving sports industry.
 </div>
 
  </div>
+
+
+
+
     </section>
  
+
+ <section className='mt-8 w-full mb-3 hidden sm:block '> 
+
+  <h1 className="text-4xl sm:text-6xl font-bold text-center py-16  font-['Champ']"> Our Sponsors</h1>
+  <Slider2
+ width="250px"
+            duration={40}
+            pauseOnHover={true}
+            blurBorders={false}
+            blurBorderColor={'#fff'}
+        >
+            <Slider2.Slide>
+              <Image className='w-36' alt="epl" src={epl}   quality={100}   />
+       
+            </Slider2.Slide>
+            <Slider2.Slide>
+            <Image className='w-36' alt="fifa" src={fifa}   quality={100}   />
+            </Slider2.Slide>
+            <Slider2.Slide>
+            <Image className='w-36' alt="caf" src={caf}   quality={100}   />
+            </Slider2.Slide>
+            <Slider2.Slide>
+            <Image className='w-36' alt="ogun" src={ogun}   quality={100}   />
+            </Slider2.Slide>
+        </Slider2>
+ </section>
+
+ <section className='mt-8 w-full mb-3 sm:hidden'>
+  <div>
+  <h1 className="text-4xl sm:text-6xl font-bold text-center py-16  font-['Champ']"> Our Sponsors</h1>
+  </div>
+  <div className='p-3 my-4 flex items-center justify-center'>
+    <Image className='w-1/2' alt="sponsors" src={epl}    quality={100}   />
+  </div>
+  <div className='p-3 my-4 flex items-center justify-center'>
+    <Image className='w-1/2' alt="sponsors" src={fifa}    quality={100}   />
+  </div>
+  <div className='p-3 my-4 flex items-center justify-center'>
+    <Image className='w-1/2' alt="sponsors" src={ogun}    quality={100}   />
+  </div>
+  <div className='p-3 my-4 flex items-center justify-center'>
+    <Image className='w-1/2' alt="sponsors" src={caf}    quality={100}   />
+  </div>
+ </section>
     </main>
+
+    </>
   )
 }

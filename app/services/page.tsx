@@ -1,14 +1,15 @@
+
 export default function Services() {
   return (
     <main className="container mx-auto px-4 py-8">
-      <div className="container grid grid-flow-col grid-rows-2 gap-4  sm:p-20">
-        <div className="row-span-2">
+      <div className="container sm:grid grid-flow-col grid-rows-2 gap-4  sm:p-20">
+        <div className="row-span-2 ">
           <img src="/frame12.png" className="h-full " alt="" />
         </div>
-        <div className="">
+        <div className=" mt-5 sm:mt-0">
           <img className="h-full" src="/frame13.png" alt="" />
         </div>
-        <div className="">
+        <div className="mt-5 sm:mt-0">
           <img className="h-full" src="/frame14.png" alt="" />
         </div>
       </div>
