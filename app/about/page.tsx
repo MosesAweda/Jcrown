@@ -14,7 +14,7 @@ export default function About() {
       </div>
       </div>
       
-      <div className="mt-20">
+      <div className="mt-20" id='team'>
         <h1 className="text-4xl font-bold mb-4">Team Squad</h1>
       At Jcrown Sport Intl, we are more than just a sports marketing agency - we are a partner in the success of our clients. Join us as we embark on a journey to redefine sports marketing and inspire new ways to experience the world of sports.
        At Jcrown Sport Intl Ltd, we have extensive experience in practical  management and sports marketing.
@@ -66,7 +66,7 @@ export default function About() {
 
      
 
- <section className='mt-8 w-full mb-3   '> 
+ <section className='mt-8 w-full mb-3   ' id='talents'> 
 
 <h1 className="text-4xl sm:text-6xl font-bold text-left py-16  font-['Champ']"> Our Talents</h1>
 <Slider

@@ -34,6 +34,7 @@ export default function Services() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+
         },
         body: JSON.stringify({
           firstName: formData.firstName,
@@ -150,7 +151,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:ml-20 justify-center p-6">
+        <div className="flex flex-col sm:ml-20 justify-center p-6" id='contact' >
           <h1 className="text-4xl font-bold mt-4">Contact Us</h1>
           <p className="mt-4">Jcrown Sports</p>
           <p className="mt-4">13, Arise Stadium Road, Abeokuta, Ogun, Nigeria.</p>

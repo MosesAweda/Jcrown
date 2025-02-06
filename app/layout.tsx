@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
         <head>
         
-        <link rel="icon" href="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851527/logo_x1lvxg.svg"  sizes="192x192" />
+        <link rel="icon" href="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851527/logo_x1lvxg.svg"    />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

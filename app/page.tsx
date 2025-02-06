@@ -272,7 +272,7 @@ success in the ever-evolving sports industry.
  
 
 
- <section className='mt-8 w-full mb-3 hidden sm:block '> 
+ <section className='mt-8 w-full mb-3 hidden sm:block' id='sponsors'> 
 
   <h1 className="text-4xl sm:text-6xl font-bold text-center py-16  font-['Champ']"> Our Sponsors</h1>
   <Slider2
