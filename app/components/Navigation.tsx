@@ -37,7 +37,7 @@ export default function Navbar() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
           onClick={closeMenu}
         >
-          <Image  className='rounded-3xl relative h-20  z-10 '  alt="Logo" src={"/svg/logo.svg"} width={100} height={100}  quality={100}/>
+          <img  className='rounded-3xl relative h-20  z-10 '  alt="Logo" src={"https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851527/logo_x1lvxg.svg"}  />
           {/* <img src="/logo.svg" className="h-20" alt="Logo" /> */}
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             

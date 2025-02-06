@@ -1,16 +1,7 @@
 'use client';
 import Slider from 'react-infinite-logo-slider'
 import Image from "next/image"
-import james from "../../public/james.png"
-import faith from "../../public/faith.png"
-import fifa from "../../public/fifa.png"
-import ogun from "../../public/ogun.png"
-import caf from "../../public/caf.png"
 
-import ayomide from "../../public/ayomide.png"
-import makinde from "../../public/makinde.png"
-import precious from "../../public/precious.png"
-import favour from "../../public/favour.png"
 export default function About() {
   return (
     <main className="container mx-auto px-4 py-8">
@@ -31,23 +22,23 @@ export default function About() {
 
       <div className="grid sm:grid-cols-4 gap-4 mx-auto p-2 mt-8">
     <div>
-      <Image src={makinde} alt="makinde" />
-      <div className="font-bold text-lg  text-center mt-2 mb-0    font-[Sans]">Makinde Emmanuel</div>
+      <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844181/makinde_vtuqpg.png" alt="makinde" />
+      <div className="font-bold text-lg  text-center mt-2 mb-0    font-['Champ']">Makinde Emmanuel</div>
       <div className="text-sm text-center "> Ogun, Nigeria</div>
     </div>
     <div>
-      <Image src={precious} alt="makinde" />
-      <div className="font-bold text-lg  text-center mt-2 mb-0    font-[Sans]"> Precious Godwin</div>
+      <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844181/precious_pmophz.png" alt="precious" />
+      <div className="font-bold text-lg  text-center mt-2 mb-0    font-['Champ']"> Precious Godwin</div>
       <div className="text-sm text-center "> Delta, Nigeria</div>
     </div>
     <div>
-      <Image src={ayomide} alt="makinde" />
-      <div className="font-bold text-lg  text-center mt-2 mb-0    font-[Sans]"> Ayomide Adebayo</div>
+      <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844180/ayomide_dh7uiu.png" alt="Ayomide" />
+      <div className="font-bold text-lg  text-center mt-2 mb-0    font-['Champ']"> Ayomide Adebayo</div>
       <div className="text-sm text-center "> Lagos, Nigeria</div>
     </div>
     <div>
-      <Image src={favour} alt="makinde" />
-      <div className="font-bold text-lg  text-center mt-2 mb-0    font-[Sans]"> Favour Benjamin</div>
+      <img src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844180/favour_ohxqm6.png' alt="makinde" />
+      <div className="font-bold text-lg  text-center mt-2 mb-0    font-['Champ']"> Favour Benjamin</div>
       <div className="text-sm text-center "> Abuja, Nigeria</div>
     </div>
         </div>
@@ -86,13 +77,14 @@ export default function About() {
   blurBorderColor={'#fff'}
    // Added spacing between slides
 >
-  <Slider.Slide style={{padding: '0 10px', margin: '0 40px'}}>
+  <Slider.Slide>  
+  {/* <Slider.Slide style={{padding: '0 10px', margin: '0 40px'}}> */}
     <div className="flex   items-end justify-center space-x-4 ">
-      <Image 
+      <img 
         className="w-36" 
         alt="james" 
-        src={james} 
-        quality={100} 
+        src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738849624/James_c1rvai.png'
+        
       />
       <div className="flex flex-col justify-end text-sm h-36">
         <label className="font-semibold">James Wilson</label>
@@ -104,11 +96,11 @@ export default function About() {
 
   <Slider.Slide>
     <div className="flex    items-end justify-center space-x-4 ">
-      <Image 
+      <img 
         className="w-36" 
         alt="faith" 
-        src={faith} 
-        quality={100} 
+         src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844180/faith_r4axq2.png'
+        
       />
       <div className="flex flex-col justify-end text-sm h-36">
         <label className="font-semibold">Faith Adeleye</label>

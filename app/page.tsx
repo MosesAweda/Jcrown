@@ -1,17 +1,10 @@
 'use client';
 import Image from 'next/image';
 import Slider2   from 'react-infinite-logo-slider'
-import peopleGroup from '../public/svg/peopleGroup.svg';
-import heart from '../public/svg/heart.svg';
-import rocket from '../public/svg/rocket.svg';
-import shield from '../public/svg/shield.svg';
-import Frame10 from '../public/Frame10.png';
-import Frame11 from '../public/Frame11.png';
-import frame15 from '../public/frame15.png';
 import caf from '../public/caf.png';
-import fifa from '../public/fifa.png';
+
 import ogun from '../public/ogun.png';
-import epl from '../public/epl.png';
+// import epl from 'https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844179/epl_tnhr56.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -57,8 +50,8 @@ export default function Home() {
     </div>
     <div className="bg-transparent p-20 relative"> 
   <div className="absolute -z-10 h-3/4 w-3/4 bg-green-500 rounded-[20%]   top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 rotate-45"></div>
-  {/* <img src="/frame10.png" className="rounded-3xl relative z-10" /> */}
-<Image  className='rounded-3xl relative z-10 ' alt="frame10" src={Frame10}   quality={100} placeholder="blur" />
+  <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844181/Frame10_mrmwnk.png" className="rounded-3xl relative z-10" /> 
+ 
  
 </div>
         </div>
@@ -100,7 +93,10 @@ performance excellence, and long-term success.
 
             <div className="col-span-2 p-2 "> 
             {/* <img src="/frame11.png"  className="mt-2"   /> */}
-            <Image  className='rounded-3xl relative z-10 mt-2' alt="frame10" src={Frame11}   quality={100} placeholder="blur" />
+            <img  className='rounded-3xl relative z-10 mt-2' alt="frame10" 
+            src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844182/frame13_e09asb.png"  
+   
+    />
           </div>
     
       </div>
@@ -125,8 +121,8 @@ performance excellence, and long-term success.
               </p>
             </div>
             <div className="w-full md:w-2/6 flex justify-center items-center py-8">
-              <Image
-                src={shield}
+              <img
+             src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851523/shield_mh0hix.svg'
                 alt="Shield representing integrity"
                 className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
               />
@@ -150,8 +146,8 @@ performance excellence, and long-term success.
               </p>
             </div>
             <div className="w-full md:w-2/6 flex justify-center items-center py-8">
-              <Image
-                src={rocket}
+              <img
+                src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851522/rocket_ktdb2z.svg'
                 alt="Rocket representing innovation"
                 className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
               />
@@ -174,8 +170,8 @@ performance excellence, and long-term success.
               </p>
             </div>
             <div className="w-full md:w-2/6 flex justify-center items-center py-8">
-              <Image
-                src={heart}
+              <img
+                src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851519/heart_zy96nk.svg'
                 alt="Heart representing relationships"
                 className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
               />
@@ -198,8 +194,8 @@ performance excellence, and long-term success.
               </p>
             </div>
             <div className="w-full md:w-2/6 flex justify-center items-center py-8">
-              <Image
-                src={peopleGroup}
+              <img
+                src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851520/peopleGroup_th1nwt.svg'
                 alt="People group representing collaboration"
                 className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
               />
@@ -212,11 +208,11 @@ performance excellence, and long-term success.
 
   <section className="mt-8 w-full px-4"> 
 
-  <div className="bg-green-800 text-white p-6  rounded-t-[400px]">
+  <div className="bg-green-800 text-white p-6  rounded-t-[600px]">
 
 <div className='sm:mt-20  mt-10 p-10 '>  
-<h1 className="text-4xl p-4 text-4xl  text-center font-bold"> Mission</h1>
-<p className='text-center px-5'> At Jcrown Sport , we believe that success in sports management is built on a foundation of integrity,
+<h1 className="text-4xl sm:text-6xl p-4 text-4xl font-['Champ'] text-center font-bold"> Mission</h1>
+<p className='text-center md:px-24 px-5 ' > At Jcrown Sport , we believe that success in sports management is built on a foundation of integrity,
 passion, and strategic innovation. Our core philosophy is centered around providing unparalleled
 service to athletes, teams, and organizations by fostering growth,
 performance excellence, and long-term success.</p>
@@ -225,11 +221,11 @@ performance excellence, and long-term success.</p>
 
 <div className='mt-5 sm:grid grid-cols-3 gap-4 p-10'>
   <div className='col-span-1 p-3'>
-    <Image className='rounded-3xl relative z-10' alt="frame15" src={frame15}   quality={100} placeholder="blur" />
+    <img  src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844180/frame15_gtydg3.png" />
   </div>
 
   <div className='p-3  col-span-2 flex items-center justify-center'>
-    <div>    
+    <div className=''>    
       <p>
     We strive to create lasting relationships built on trust, integrity, and collaboration, ensuring that every client’s
      goals are met with passion and professionalism. Through our commitment to 
@@ -287,17 +283,17 @@ success in the ever-evolving sports industry.
             blurBorderColor={'#fff'}
         >
             <Slider2.Slide>
-              <Image className='w-36' alt="epl" src={epl}   quality={100}   />
+              <img className='w-36' alt="epl" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844179/epl_tnhr56.png"  width={100}   height={100}     />
        
             </Slider2.Slide>
             <Slider2.Slide>
-            <Image className='w-36' alt="fifa" src={fifa}   quality={100}   />
+            <img className='w-36' alt="fifa"src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844179/fifa_gopwkw.png"  width={100}   height={100}       />
             </Slider2.Slide>
             <Slider2.Slide>
-            <Image className='w-36' alt="caf" src={caf}   quality={100}   />
+            <img className='w-36' alt="caf" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844179/caf_noguqi.png"   width={100} height={100}   />
             </Slider2.Slide>
             <Slider2.Slide>
-            <Image className='w-36' alt="ogun" src={ogun}   quality={100}   />
+            <img className='w-36' alt="ogun" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844181/ogun_ohodny.png"   width={100} height={100}      />
             </Slider2.Slide>
         </Slider2>
  </section>
@@ -307,16 +303,16 @@ success in the ever-evolving sports industry.
   <h1 className="text-4xl sm:text-6xl font-bold text-center py-16  font-['Champ']"> Our Sponsors</h1>
   </div>
   <div className='p-3 my-4 flex items-center justify-center'>
-    <Image className='w-1/2' alt="sponsors" src={epl}    quality={100}   />
+    <Image className='w-1/2' alt="sponsors" src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844179/epl_tnhr56.png'  height={100} width={100}   quality={100}   />
   </div>
   <div className='p-3 my-4 flex items-center justify-center'>
-    <Image className='w-1/2' alt="sponsors" src={fifa}    quality={100}   />
+    <Image className='w-1/2' alt="sponsors" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844179/fifa_gopwkw.png"   height={100} width={100}   quality={100}   />
   </div>
   <div className='p-3 my-4 flex items-center justify-center'>
-    <Image className='w-1/2' alt="sponsors" src={ogun}    quality={100}   />
+    <Image className='w-1/2' alt="sponsors" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844179/caf_noguqi.png"   width={100} height={100} quality={100}   />
   </div>
   <div className='p-3 my-4 flex items-center justify-center'>
-    <Image className='w-1/2' alt="sponsors" src={caf}    quality={100}   />
+    <Image className='w-1/2' alt="sponsors" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844181/ogun_ohodny.png" width={100} height={100}  quality={100}   />
   </div>
  </section> 
 

@@ -12,12 +12,12 @@ export default function Footer() {
     <div className="md:flex md:justify-between">
       <div className="mb-6 md:mb-0">
         <Link href={"/"} className="flex items-center">
-          {/* <img
-            src="logo.svg"
+          <img
+            src="h  ttps://res.cloudinary.com/dgso4wgqt/image/upload/v1738851527/logo_x1lvxg.svg"
             className=" h-20 me-3"
             alt=" Logo"
-          /> */}
-             <Image  className='rounded-3xl relative h-20  z-10 '  alt="Logo" src={"/svg/logo.svg"} width={100} height={100}  quality={100}/>
+          />
+             {/* <Image  className='rounded-3xl relative h-20  z-10 '  alt="Logo" src={"/svg/logo.svg"} width={100} height={100}  quality={100}/> */}
         
         </Link>
         <div className="text-xs sm:ml-3 mt-5 whitespace-nowrap dark:text-white">
