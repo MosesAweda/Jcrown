@@ -275,6 +275,7 @@ success in the ever-evolving sports industry.
     </section>
  
 
+
  <section className='mt-8 w-full mb-3 hidden sm:block '> 
 
   <h1 className="text-4xl sm:text-6xl font-bold text-center py-16  font-['Champ']"> Our Sponsors</h1>
@@ -317,7 +318,9 @@ success in the ever-evolving sports industry.
   <div className='p-3 my-4 flex items-center justify-center'>
     <Image className='w-1/2' alt="sponsors" src={caf}    quality={100}   />
   </div>
- </section>
+ </section> 
+
+ 
     </main>
 
     </>
