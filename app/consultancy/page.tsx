@@ -160,7 +160,7 @@ export default function Services() {
           <div className="flex mt-5 items-center gap-2">
            <a href="https://www.linkedin.com/in/jaycrown-sports-consultancy-0b1b3b1b3/">
            <> 
-           <img className="relative z-10 w-6 h-6" alt="linkedIn" src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844203/linkedIn_eqxiar.svg' />
+           <img className="relative z-10 w-6 h-6" alt="linkedIn" src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851524/linkedIn_dih0y0.svg' />
                 </>
            </a> 
                 <a href="https://www.instagram.com/jaycrown_sports/">

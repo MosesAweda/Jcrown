@@ -28,7 +28,7 @@ export default function Services() {
       <div className=" flex items-center justify-center">
         <div className="bg-green-800  text-white p-10 sm:p-20 rounded-xl shadow-lg border-black  border-solid 
 border-b-8 border-2 max-w-6xl  sm:grid grid-cols-5 gap-0 "    >
-          <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844204/pitch_tyejds.svg" alt="" /> </div>
+          <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851524/pitch_zhn8o0.svg"  alt="" /> </div>
 
           <div className="col-span-4">
             <h1 className="text-4xl font-bold mb-4">Team Sports</h1>
@@ -55,7 +55,7 @@ border-b-8 border-2 max-w-6xl  sm:grid grid-cols-5 gap-0 "    >
       <div className=" flex items-center justify-center">
         <div className="bg-yellow-500   p-10 sm:p-20 rounded-xl shadow-lg border-black  border-solid 
 border-b-8 border-2 max-w-6xl my-20 sm:grid grid-cols-5 gap-0 "    >
-          <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844203/dumbell_xdnukg.svg" alt="" /> </div>
+          <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851523/dumbell_gjadih.svg" alt="" /> </div>
 
           <div className="col-span-4">
             <h1 className="text-4xl font-bold mb-4">Extreme Sports</h1>
@@ -78,7 +78,7 @@ border-b-8 border-2 max-w-6xl my-20 sm:grid grid-cols-5 gap-0 "    >
       <div className=" flex items-center justify-center">
         <div className="bg-green-800  text-white p-10 sm:p-20 rounded-xl shadow-lg border-black  border-solid 
 border-b-8 border-2 max-w-6xl  sm:grid grid-cols-5 gap-0 "    >
-          <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844204/running_p6gfee.svg" alt="" /> </div>
+          <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851525/running_nnb6ts.svg" alt="" /> </div>
 
           <div className="col-span-4">
             <h1 className="text-4xl font-bold mb-4">Individual Sports</h1>
