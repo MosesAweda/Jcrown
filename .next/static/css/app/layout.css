@@ -782,6 +782,9 @@ video {
 .h-full {
   height: 100%;
 }
+.h-\[900px\] {
+  height: 900px;
+}
 .w-1\/2 {
   width: 50%;
 }
@@ -1155,6 +1158,12 @@ video {
 }
 .pt-32 {
   padding-top: 8rem;
+}
+.pt-0 {
+  padding-top: 0px;
+}
+.pt-12 {
+  padding-top: 3rem;
 }
 .text-left {
   text-align: left;

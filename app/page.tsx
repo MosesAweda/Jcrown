@@ -105,7 +105,7 @@ performance excellence, and long-term success.
 <section className="mt-8 w-full bg-black p-10 text-white"> 
 <Slider {...settings1} className="h-full">
       {/* Wrap all slides in a container with fixed height */}
-      <div className=" h-[800px] sm:h-[400px] bg-black text-white">
+      <div className=" h-[900px] sm:h-[400px] bg-black text-white">
         <div className="container mx-auto px-4 h-full">
           <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
             <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
@@ -124,7 +124,7 @@ performance excellence, and long-term success.
               <img
              src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851523/shield_mh0hix.svg'
                 alt="Shield representing integrity"
-                className="w-full max-w-24 md:max-w-3/4 h-auto  object-contain"
+                className="w-full max-w-24 md:max-w-3/4 h-auto pt-0  object-contain"
               />
             </div>
           </div>
