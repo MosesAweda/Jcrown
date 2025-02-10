@@ -81,12 +81,12 @@ export default function About() {
   {/* <Slider.Slide style={{padding: '0 10px', margin: '0 40px'}}> */}
     <div className="flex   items-end justify-center space-x-4 ">
       <img 
-        className="w-36" 
+        className="-w36 h-36 object-cover "   
         alt="james" 
         src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738849624/James_c1rvai.png'
         
       />
-      <div className="flex flex-col justify-end text-sm h-36">
+      <div className="flex flex-col justify-end text-xs h-36">
         <label className="font-semibold">James Wilson</label>
         <label className='font-medium text-xs'>GIRONA FC</label>
         <label className='text-xs'>Midfielder</label>
@@ -97,15 +97,48 @@ export default function About() {
   <Slider.Slide>
     <div className="flex    items-end justify-center space-x-4 ">
       <img 
-        className="w-36" 
+        className="w-36  h-36 object-cover " 
         alt="faith" 
          src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844180/faith_r4axq2.png'
         
       />
-      <div className="flex flex-col justify-end text-sm h-36">
+      <div className="flex flex-col justify-end text-xs h-36">
         <label className="font-semibold">Faith Adeleye</label>
         <label>Nigeria</label>
         <label>100m Athlete</label>
+      </div>
+    </div>
+  </Slider.Slide>
+
+
+  <Slider.Slide>
+    <div className="flex    items-end justify-center space-x-4 ">
+      <img 
+        className="w-36 h-36 object-cover rounded-xl"   
+        alt="faith" 
+         src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1739186797/muyiwa_mtm18s.png'
+        
+      />
+      <div className="flex flex-col justify-end text-xs h-36">
+        <label className="font-semibold"> Muyiwa David</label>
+        <label>Anambra FC</label>
+        <label> Midfielder</label>
+      </div>
+    </div>
+  </Slider.Slide>
+
+  <Slider.Slide>
+    <div className="flex    items-end justify-center space-x-4 ">
+      <img 
+        className="w-36 h-36 object-cover rounded-xl"   
+        alt="faith" 
+         src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1739186797/tunde_dajnve.png'
+        
+      />
+      <div className="flex flex-col justify-end text-xs h-36">
+        <label className="font-semibold"> Tunde Lawal</label>
+        <label>Arsenal FC</label>
+        <label> Winger</label>
       </div>
     </div>
   </Slider.Slide>

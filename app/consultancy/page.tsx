@@ -1,8 +1,9 @@
 'use client';
-import Link from 'next/link';
 import Image from 'next/image';
+import linkedIn from '../../public/svg/linkedIn.svg';
 import { useState } from 'react';
-import { AlertDialog, AlertDialogContent, AlertDialogDescription, AlertDialogHeader, AlertDialogTitle } from "../components/alertDialog";
+import { AlertDialog, AlertDialogContent, AlertDialogDescription, AlertDialogHeader, AlertDialogTitle } from '../components/alertDialog'; 
+
 export default function Services() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -16,7 +17,7 @@ export default function Services() {
   const [showSuccess, setShowSuccess] = useState(false);
   const [error, setError] = useState('');
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -24,7 +25,7 @@ export default function Services() {
     }));
   };
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
     setIsLoading(true);
     setError('');
@@ -34,7 +35,6 @@ export default function Services() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-
         },
         body: JSON.stringify({
           firstName: formData.firstName,
@@ -46,8 +46,11 @@ export default function Services() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to submit form');
+        const errorData = await response.json().catch(() => null);
+        throw new Error(errorData?.message || `Failed to submit form: ${response.status}`);
       }
+      
+      const data = await response.json();
 
       setShowSuccess(true);
       setFormData({
@@ -57,7 +60,7 @@ export default function Services() {
         phoneNumber: '',
         message: ''
       });
-    } catch (err:any) {
+    } catch (err: any) {
       setError(err.message);
     } finally {
       setIsLoading(false);
@@ -151,28 +154,14 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:ml-20 justify-center p-6" id='contact' >
+        <div className="flex flex-col sm:ml-20 justify-center p-6">
           <h1 className="text-4xl font-bold mt-4">Contact Us</h1>
           <p className="mt-4">Jcrown Sports</p>
           <p className="mt-4">13, Arise Stadium Road, Abeokuta, Ogun, Nigeria.</p>
           <p className="mt-4">+2348087493079, +2348089222764</p>
           <p className="mt-4">jcrownsports@gmail.com</p>
           <div className="flex mt-5 items-center gap-2">
-           <a href="https://www.linkedin.com/in/jaycrown-sports-consultancy-0b1b3b1b3/">
-           <> 
-           <img className="relative z-10 w-6 h-6" alt="linkedIn" src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851524/linkedIn_dih0y0.svg' />
-                </>
-           </a> 
-                <a href="https://www.instagram.com/jaycrown_sports/">
-            <img className="relative z-10 w-6 h-6" alt="Instagram" src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738849961/instagram_mqgruw.svg' />
-            </a>
-
-            <a href="https://www.x.com/jaycrown_sports/">
-            <img className="relative z-10 w-6 h-6" alt="X" src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851704/x_ocgx8p.svg' />
-            </a>
-            <a href="https://www.facebook.com/jaycrown_sports/">
-            <img className="relative z-10 w-6 h-6" alt="Facebook" src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851315/facebook_bath2e.svg' />
-            </a>
+            <Image className="relative z-10 w-6 h-6" alt="linkedIn" src={linkedIn} quality={100} />
           </div>
         </div>
       </div>
