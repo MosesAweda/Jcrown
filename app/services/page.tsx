@@ -4,13 +4,13 @@ export default function Services() {
     <main className="container mx-auto px-4 py-8">
       <div className="container sm:grid grid-flow-col grid-rows-2 gap-4  sm:p-20">
         <div className="row-span-2 ">
-          <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844181/frame12_ghalb7.png" className="h-full " alt="" />
+          <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844181/frame12_ghalb7.png"  className="sm:h-full  " alt="" />
         </div>
         <div className=" mt-5 sm:mt-0">
-          <img className="h-full" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844182/frame13_e09asb.png" alt="frame13" />
+          <img className="sm:h-full " src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844182/frame13_e09asb.png" alt="frame13" />
         </div>
         <div className="mt-5 sm:mt-0">
-          <img className="h-full" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844180/frame14_oirxmw.png" alt="" />
+          <img className="sm:h-full " src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738844180/frame14_oirxmw.png" alt="" />
         </div>
       </div>
 
