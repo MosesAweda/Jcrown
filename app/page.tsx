@@ -120,11 +120,11 @@ performance excellence, and long-term success.
                 standards of integrity in all our dealings.
               </p>
             </div>
-            <div className="w-full md:w-2/6 flex justify-center items-center py-8">
+            <div className="w-full md:w-2/6 flex justify-center items-center pt-20">
               <img
              src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851523/shield_mh0hix.svg'
                 alt="Shield representing integrity"
-                className="w-full max-w-24 md:max-w-3/4 h-auto pt-8 object-contain"
+                className="w-full max-w-24 md:max-w-3/4 h-auto  object-contain"
               />
             </div>
           </div>
@@ -145,11 +145,11 @@ performance excellence, and long-term success.
                 or athlete branding, we remain at the forefront of the industry to create cutting-edge solutions.
               </p>
             </div>
-            <div className="w-full md:w-2/6 flex justify-center items-center py-8">
+            <div className="w-full md:w-2/6 flex justify-center items-center  sm:pt-0 pt-20">
               <img
                 src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851522/rocket_ktdb2z.svg'
                 alt="Rocket representing innovation"
-                className="w-full max-w-24 md:max-w-3/4 h-auto  pt-8 object-contain"
+                className="w-full max-w-24 md:max-w-3/4  object-contain"
               />
             </div>
           </div>
