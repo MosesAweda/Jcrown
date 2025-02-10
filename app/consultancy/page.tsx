@@ -161,7 +161,11 @@ export default function Services() {
           <p className="mt-4">+2348087493079, +2348089222764</p>
           <p className="mt-4">jcrownsports@gmail.com</p>
           <div className="flex mt-5 items-center gap-2">
-            <Image className="relative z-10 w-6 h-6" alt="linkedIn" src={linkedIn} quality={100} />
+       <a href='https://www.linkedin.com/company/jcrown-sports'>      <img className="relative z-10 w-6 h-6" alt="LinkedIn" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851524/linkedIn_dih0y0.svg" /> </a>
+      <a href='https://www.instagram.com/jcrown_sports/'>     <img className="relative z-10 w-6 h-6" alt="Instagram" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738849961/instagram_mqgruw.svg"  /></a>
+            <a href='https://twitter.com/jcrown_sports'>  <img className="relative z-10 w-6 h-6" alt="X" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851704/x_ocgx8p.svg"  /></a>
+          <a href='https://www.facebook.com/jcrown.sports'>  <img className="relative z-10 w-6 h-6" alt="Facebook" src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851315/facebook_bath2e.svg"  /></a>
+
           </div>
         </div>
       </div>
