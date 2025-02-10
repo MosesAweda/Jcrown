@@ -73,7 +73,7 @@ export default function Services() {
         <div className="p-6">
           <div className="bg-stone-900 p-6 rounded-xl sm:px-10">
             <div className="max-w-xl mx-auto">
-              <div className="text-white text-3xl  sm:text-5xl font-bold mb-6  py-4 font-['Champ']">Need  <br/>  Consultancy?</div>
+              <div className="text-white text-3xl  sm:text-5xl font-bold mb-6  px-4 py-4 font-['Champ']">Need  <br/>  Consultancy?</div>
               <form className="w-full" onSubmit={handleSubmit}>
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
