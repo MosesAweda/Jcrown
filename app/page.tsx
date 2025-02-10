@@ -120,7 +120,7 @@ performance excellence, and long-term success.
                 standards of integrity in all our dealings.
               </p>
             </div>
-            <div className="w-full md:w-2/6 flex justify-center items-center pt-20">
+            <div className="w-full md:w-2/6 flex justify-center items-center pt-32 sm:pt-0">
               <img
              src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851523/shield_mh0hix.svg'
                 alt="Shield representing integrity"
@@ -169,11 +169,11 @@ performance excellence, and long-term success.
                 and we are dedicated to creating mutually beneficial partnerships that stand the test of time.
               </p>
             </div>
-            <div className="w-full md:w-2/6 flex justify-center items-center py-8">
+            <div className="w-full md:w-2/6 flex justify-center items-center sm:pt-0 pt-20 ">
               <img
                 src='https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851519/heart_zy96nk.svg'
                 alt="Heart representing relationships"
-                className="w-full max-w-24 md:max-w-3/4 h-auto object-contain pt-8"
+                className="w-full max-w-24 md:max-w-3/4 h-auto object-contain"
               />
             </div>
           </div>
