@@ -31,7 +31,7 @@ export default function Services() {
     setError('');
 
     try {
-      const response = await fetch('https://jaycrown.onrender.com/api/v1/create-consultancy', {
+      const response = await fetch("https://jaycrown.onrender.com/api/v1/create-consultancy" + "https://cors-anywhere.herokuapp.com/", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -69,11 +69,11 @@ export default function Services() {
 
   return (
     <main className="container mx-auto px-4 py-8">
-      <div className="sm:grid grid-cols-2 gap-4 mx-4 mt-8">
+      <div className="xl:grid grid-cols-2 gap-4 mx-4 mt-8">
         <div className="p-6">
-          <div className="bg-gray-900 p-6 rounded-xl">
-            <div className="max-w-md mx-auto">
-              <div className="text-white text-3xl font-bold mb-6">Need Consultancy</div>
+          <div className="bg-stone-900 p-6 rounded-xl sm:px-10">
+            <div className="max-w-xl mx-auto">
+              <div className="text-white text-3xl  sm:text-5xl font-bold mb-6  py-4 font-['Champ']">Need  <br/>  Consultancy?</div>
               <form className="w-full" onSubmit={handleSubmit}>
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -155,7 +155,7 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col sm:ml-20 justify-center p-6">
-          <h1 className="text-4xl font-bold mt-4">Contact Us</h1>
+          <h1 className="text-4xl font-bold mt-4  sm:text-5xl font-['Champ']">Contact Us</h1>
           <p className="mt-4">Jcrown Sports</p>
           <p className="mt-4">13, Arise Stadium Road, Abeokuta, Ogun, Nigeria.</p>
           <p className="mt-4">+2348087493079, +2348089222764</p>

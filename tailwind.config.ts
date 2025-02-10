@@ -13,6 +13,9 @@ export default {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)'
   		},
+		  fontFamily: {
+			champ: ['var(--font-champ)', 'sans-serif'],
+		  },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

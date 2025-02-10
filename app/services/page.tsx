@@ -14,7 +14,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="p-3 mt-16">  <h1 className="text-center text-4xl font-bold my-3"> Our Services</h1></div>
+      <div className="p-3 mt-16">  <h1 className="text-center text-4xl sm:text-6xl font-['Champ'] font-bold my-3"> Our Services</h1></div>
       <div className="text-center p-5 mb-16  "> <p>
       </p>At Jcrown Sport, we are a full service sport management and marketing company with a major focus on soccer and a while range of other sports.
 
@@ -31,7 +31,7 @@ border-b-8 border-2 max-w-6xl  sm:grid grid-cols-5 gap-0 "    >
           <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851524/pitch_zhn8o0.svg"  alt="" /> </div>
 
           <div className="col-span-4">
-            <h1 className="text-4xl font-bold mb-4">Team Sports</h1>
+            <h1 className="text-4xl font-bold mb-4 font-['Champ']">Team Sports</h1>
 
             <p>
               We have successfully marketed team sports such as basketball, soccer,
@@ -58,7 +58,7 @@ border-b-8 border-2 max-w-6xl my-20 sm:grid grid-cols-5 gap-0 "    >
           <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851523/dumbell_gjadih.svg" alt="" /> </div>
 
           <div className="col-span-4">
-            <h1 className="text-4xl font-bold mb-4">Extreme Sports</h1>
+            <h1 className="text-4xl font-bold mb-4 font-['Champ']">Extreme Sports</h1>
 
             <p>
               In the realm of extreme sports such as snowboarding, surfing, skateboarding, and motocross, we excel at capturing the
@@ -81,7 +81,7 @@ border-b-8 border-2 max-w-6xl  sm:grid grid-cols-5 gap-0 "    >
           <div className="my-4 sm:my-0 col-span-1"> <img src="https://res.cloudinary.com/dgso4wgqt/image/upload/v1738851525/running_nnb6ts.svg" alt="" /> </div>
 
           <div className="col-span-4">
-            <h1 className="text-4xl font-bold mb-4">Individual Sports</h1>
+            <h1 className="text-4xl font-bold mb-4 font-['Champ']">Individual Sports</h1>
 
             <p>
               Our experience in marketing individual sports like tennis, golf, boxing, and track and field has allowed us to develop specialized strategies that highlight the unique skills and personalities of individual athletes.

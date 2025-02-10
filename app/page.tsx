@@ -58,7 +58,7 @@ export default function Home() {
 
      <div className=" mt-5">
         <div className="p-6">
-            <div className="text-4xl sm:text-7xl font-extrabold font-['Champ'] my-2 text-center ">
+            <div className="text-3xl sm:text-6xl font-extrabold font-['Champ'] my-2 text-center ">
                 Our Philosophy
             </div>
            <p className='text-center my-3 text-md'> At Jcrown Sport, we believe that success in sports management is built on a foundation of integrity,
@@ -75,7 +75,7 @@ performance excellence, and long-term success.
           <div className="col-span-3 font-medium p-4  ">
             <div className=" p-8 bg-green-800 shadow-lg shadow-gray-900  h-full flex items-center justify-center text-white rounded-2xl">
               <div>
-            <div className="text-3xl  my-3   sm:text-4xl font-bold">
+            <div className="text-3xl  my-3   font-['Champ'] sm:text-4xl font-bold">
                 Athlethe-Centric Approach
             </div>
             <div className="">
@@ -109,7 +109,7 @@ performance excellence, and long-term success.
         <div className="container mx-auto px-4 h-full">
           <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
             <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
-              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 font-['Champ'] px-12">
                 Ethical Leadership and Integrity
               </h1>
               <p className="leading-relaxed px-12 pb-8">
@@ -135,7 +135,7 @@ performance excellence, and long-term success.
         <div className="container mx-auto px-4 h-full">
           <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
             <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
-              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12 font-['Champ']">
                 Innovation and Adaptability
               </h1>
               <p className="leading-relaxed px-12 pb-8">
@@ -160,7 +160,7 @@ performance excellence, and long-term success.
         <div className="container mx-auto px-4 h-full">
           <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
             <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
-              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12 font-['Champ']">
                 Building Long-Term Relationships
               </h1>
               <p className="leading-relaxed px-12 pb-8">
@@ -184,7 +184,7 @@ performance excellence, and long-term success.
         <div className="container mx-auto px-4 h-full">
           <div className="flex flex-col-reverse md:flex-row md:gap-8 items-center h-full">
             <div className="w-full md:w-4/6 mt-8 md:mt-0 flex flex-col justify-center py-8 md:py-12">
-              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 px-12 font-['Champ']">
                 Excellence Through Collaboration
               </h1>
               <p className="leading-relaxed px-12 pb-8">
@@ -212,7 +212,7 @@ performance excellence, and long-term success.
 
 <div className='sm:mt-20  mt-10 p-10 '>  
 <h1 className="text-4xl sm:text-6xl p-4 text-4xl font-['Champ'] text-center font-bold"> Mission</h1>
-<p className='text-center md:px-24 px-5 ' > At Jcrown Sport , we believe that success in sports management is built on a foundation of integrity,
+<p className=' md:px-24 px-1' > At Jcrown Sport , we believe that success in sports management is built on a foundation of integrity,
 passion, and strategic innovation. Our core philosophy is centered around providing unparalleled
 service to athletes, teams, and organizations by fostering growth,
 performance excellence, and long-term success.</p>
@@ -244,8 +244,8 @@ performance excellence, and long-term success.</p>
  </div>
  <div className='bg-green-50  text-black  rounded-b-[400px]'>
   <div className='sm:p-32 p-16'>
-  <h1 className='text-3xl font-bold text-center p-3'>
-Our Vision
+  <h1 className="text-3xl font-bold  pb-6 sm:text-6xl font-['Champ'] text-center py-2">
+  Vision
   </h1>
   <div className='text-md   text-center sm:px-16'> 
   <p className=''> 

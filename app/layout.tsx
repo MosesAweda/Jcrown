@@ -1,14 +1,31 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from 'next/font/local'
 import "./globals.css";
 import Footer from './components/Footer'
 import Navigation from './components/Navigation'
+ 
  
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
+
+
+const champ = localFont({
+  src: [
+    {
+      path: '../public/fonts/Champ-Black.woff',
+      weight: '400',
+      style: 'normal',
+    },
+    // Add other weights/styles if available
+  ],
+  variable: '--font-champ'
+})
+
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
